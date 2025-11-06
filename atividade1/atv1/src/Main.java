@@ -7,7 +7,9 @@ public class Main {
 
         Cachorro c4 = new Cachorro("c4:  nick", "pinch");
 
-        Cachorro c5 = new Cachorro();
+        Cachorro c5 = new Cachorro("nome do cachorro", "amarelo");
+
+
 
          
 

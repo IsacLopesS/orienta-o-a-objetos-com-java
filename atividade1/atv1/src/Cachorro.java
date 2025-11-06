@@ -20,11 +20,17 @@ public class Cachorro {
             this.idade = idade;
         }
     
-        public Cachorro(String n, String raca) {
+        public Cachorro(String n, int idade) {
             this.nome = n;
-            this.raca = raca;
+            this.idade = idade;
         } 
+        
     
+        public Cachorro(String nome, String cor) {
+            this.nome = nome;
+            this.cor = cor;
+        }
+
         public Cachorro() {
     
         }
