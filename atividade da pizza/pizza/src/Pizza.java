@@ -14,6 +14,11 @@ public class Pizza {
         contabilizaIngrediente(ingrediente);
     }
 
+    public boolean temIngrediente(){
+        
+       return !listaIngredientes.isEmpty();
+    }
+
     public int getPreco(){
         int numeroIngredientes = listaIngredientes.size();
 
