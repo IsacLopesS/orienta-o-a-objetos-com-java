@@ -44,6 +44,13 @@ public class Pizza {
 
     }
 
+    public static void imprimirIngredientesPizzaria(){
+
+        for (Map.Entry<String, Integer> entry : listaIngredientesPizzaria.entrySet()) {
+            System.out.println(entry.getKey() + " = " + entry.getValue());
+        }
+    }
+
 
 
 }

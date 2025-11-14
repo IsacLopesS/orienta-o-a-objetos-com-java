@@ -30,10 +30,9 @@ public class App {
 
         System.err.println("Total do carrinho de compra: "+ c1.valorTotalCompra());
 
-        /*for (Map.Entry<String, Integer> entrada : c1.entrySet()) { 
-            System.out.println(entrada.getKey()); 
-            System.out.println(entrada.getValue());
-        }*/
+
+        Pizza.imprimirIngredientesPizzaria();
+
          
 
        
